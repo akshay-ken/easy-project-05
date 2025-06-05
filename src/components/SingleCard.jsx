@@ -3,8 +3,8 @@ import { ResultItem } from "./ResultItem";
 export function SingleCard() {
   return (
     <>
-      <main className="flex flex-col md:flex-row w-full md:max-w-2xl">
-        <div className="w-full rounded-b-4xl bg-indigo-600 pb-12 md:w-1/2">
+      <main className="flex flex-col md:flex-row w-full md:max-w-2xl md:mx-auto md:my-32 md:bg-white md:rounded-4xl">
+        <div className="w-full rounded-b-4xl bg-indigo-600 pb-12 md:w-1/2 md:rounded-4xl">
           <p className="font-Han font-medium text-center text-xl text-gray-300 p-6">
             Your Result
           </p>
